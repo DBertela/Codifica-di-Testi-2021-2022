@@ -1,0 +1,334 @@
+/* ============================== GENERALE ============================== */
+
+body {
+
+    margin: 0;
+    padding: 0;
+
+    overflow-x:hidden;
+    
+}
+
+#SUB-body {
+    background-image: url("../proj_538672/riadattato.jpg");
+    background-position: fixed;
+    background-size: 2500px 2300px;
+    background-repeat: no-repeat;
+}
+
+
+
+.section_off{
+    display: none;
+
+}
+
+
+h1 {
+    color: rgb(33, 131, 131);
+}
+
+
+/* ============================== HEADER ============================== */
+
+
+header {
+    display: flex;
+    flex-direction: column;
+     
+
+    order: 1;
+    background-color: rgb(33, 131, 131);
+}
+    
+    #scritte_header {
+        display: flex;
+        
+        justify-content: space-around;
+
+    }
+
+    #present_proj, #motivaz{
+        width: 45%;
+        font-family:Courier New;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+
+        padding-left: 1%;
+        padding-right:1%;
+
+        transition-duration: 0.4s;
+        transition-delay: 0.1s;
+    }
+
+    #present_proj:hover, #motivaz:hover{
+        color: #fff;
+
+        box-shadow: inset 20em 20em burlywood;
+        
+        border-radius: 10px;
+    }
+
+    header h1 {
+        color: burlywood;
+        font-family:Courier New;
+        font-style:italic;
+    }
+
+    header h1, header h4 {
+        display: flex;
+        justify-content: center
+    }
+
+
+/* ============================== CARTOLINE ============================== */
+
+
+#c33,#c62 {
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 30px;
+   
+
+    
+    height: 50%;
+}
+    
+    #c33main,#c62main{
+        display: flex;
+
+        background-color: burlywood; 
+    }
+    
+
+        .c_all{
+
+            
+            flex-basis: 800px; /* limite superiore di grandezza */
+            margin-left: 1%;
+            padding-top: 1%;
+            padding-bottom: 0.7%;
+
+
+            width: 45%;
+            height: 40%;
+        }
+
+        .c_62_all {
+            margin-left: 1%;
+            padding-top: 1%;
+            padding-bottom: 0.7%;
+
+
+            width: 40%;
+            height: 25%;
+        }
+
+        #linea {
+            display: flex;
+            justify-items: center;
+
+            border-style:double; 
+            border-color: black;
+            
+            margin-left: 7%;
+            
+            padding-bottom: 25%;
+        }
+
+        /* B O T T O N I */
+
+        #fronte33,#retro33,#piuinfo33,#fronte62,#retro62,#piuinfo62 {
+            margin-top: 6px ;
+
+            background-color:rgb(33, 131, 131);
+            border-radius:10px;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Courier New;
+            font-style:italic;
+            font-size:1.1em;
+            border-color:rgb(25, 100, 100) ;
+
+            transition-duration: 0.4ms;
+            transition-delay: 0.1ms;
+        }
+
+        #fronte33:hover,
+        #retro33:hover,
+        #piuinfo33:hover,
+        #fronte62:hover,
+        #retro62:hover,
+        #piuinfo62:hover{
+            box-shadow: inset 10em 10em burlywood;
+
+        }
+
+    
+        #buttons33,#buttons62{
+            display: flex;
+            flex-direction: column;
+            
+            margin-right: 800px;
+            margin-left: 10px;
+        }
+
+        #fronte33,#retro33,#fronte62,#retro62 {
+            margin-bottom: 3px;
+        }
+
+        /* F I N E      B O T T O N I */
+
+
+    /*  D E S C R I Z I O N E     C A R T O L I N A   33 */
+        
+        #desc_all_33, #desc_all_62{
+            display: flex;
+            flex-direction: column;
+            width: 150%;
+        }
+            #nota33 {
+                margin-top: 5%;
+            }
+
+            .descelements{
+                display: flex;
+                flex-direction: row;
+
+            }
+                
+                .descelements h1 { 
+
+                    display: flex;
+                    justify-self: flex-start;
+                    font-family:Courier New;
+                    font-style:italic;
+                    
+                }
+
+
+                .descelements i {
+            
+                    display: flex;
+                    justify-self:right;
+
+                    margin-top: 35px;
+                    margin-left: 5%;
+                }
+                
+                .descelements_note62 h1 {
+                    display: flex;
+                    justify-self: flex-start;
+                    font-family:Courier New;
+                    font-style:italic;
+                    margin-bottom: -30px;
+                }
+
+                .descelements_note62 i{
+                    display: flex;
+
+                    
+                    margin-left: 10%;
+                }
+
+
+        .sottosez_altreinformazioni {
+
+            border-top-color: #000;
+            border-top-style: double;
+            border-width: 4px;
+
+            padding-bottom:10px;
+            
+            display: flex;
+
+            background-color: burlywood;
+            justify-content: space-around;
+        }
+        
+
+            .sottosez_altreinformazioni h3, #trasc h2 {
+                color: rgb(33, 131, 131);
+                font-family:Courier New;
+                font-style:italic;
+            }
+
+            #trasc i {
+                display: flex;
+                flex-direction: column;
+
+                margin-top: 9px;
+            }
+
+            #res33 {
+                margin-bottom: 20px;
+            }
+
+
+
+.nomecart{
+    display:flex;
+
+    
+    padding-left: 10%;
+
+    color:#000;
+    font-family:Courier New;
+    font-style:italic;
+    font-size: 25px;
+
+    
+
+}
+
+    .nomecart:hover{
+        color: crimson;
+    }
+
+
+
+
+
+/* messo solo per vedere se effettivamente le zone vengono considerate 
+#c33_front:hover{
+    background-color: aqua;
+    border-color: blueviolet;
+}
+
+.areas33_front:hover{
+    background-color: green;
+    border-color: red;
+    /* solo x vedere se si vede 
+    border-width: 5px ;
+}
+
+
+*/
+
+
+footer{  
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 30px;
+    
+    
+    background-color: rgb(128, 96, 51);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(23, 91, 91);
+}
+
+footer h3 {
+    color: rgb(0, 0, 0);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    
+}
